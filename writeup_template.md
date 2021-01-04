@@ -16,6 +16,7 @@ The goals / steps of this project are the following:
 [//]: # (Image References)
 
 [image1]: ./examples/grayscale.jpg "Grayscale"
+[image2]: ./test_images_output/solidWhiteCurve.jpg "Processed Image"
 
 ---
 
@@ -33,7 +34,7 @@ My pipeline consisted of 5 steps.
 
 An example of the processed image with the pipeline is shown below:
 
-[image2]: ./test_images_output/solidWhiteCurve.jpg "Processed Image"
+![alt text][image2]
 
 In order to draw a single line on the left and right lanes, I modified the draw_lines() function by ...
 
