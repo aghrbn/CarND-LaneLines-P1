@@ -23,7 +23,17 @@ The goals / steps of this project are the following:
 
 ### 1. Describe your pipeline. As part of the description, explain how you modified the draw_lines() function.
 
-My pipeline consisted of 5 steps. First, I converted the images to grayscale, then I .... 
+My pipeline consisted of 5 steps. 
+
+* First, the image is converted grayscale since Canny edge detector works on grayscale
+* Gaussian blur filter is then applied to smooth the image and reduce noise
+* Canny edge detection is applied to the blured image to detect edges in the image
+* A region of interest is created in the image to contain the lanes of interest only
+* The Hough transform is applied to the region of interest to detect lanes
+
+An example of the processed image with the pipeline is shown below:
+
+[image2]: ./test_images_output/solidWhiteCurve.jpg "Processed Image"
 
 In order to draw a single line on the left and right lanes, I modified the draw_lines() function by ...
 
